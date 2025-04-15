@@ -1,11 +1,10 @@
 class NumeroDebeSerPositivo(Exception):
-    """Excepción lanzada cuando se ingresa un número negativo."""
+    
     pass
 
 def ingrese_numero():
-    """
-    Solicita al usuario ingresar un número y valida que sea positivo.
     
+    """
     Returns:
         int: El número ingresado si es válido.
         
